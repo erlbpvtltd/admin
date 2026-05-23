@@ -78,7 +78,7 @@ const Add = ({backendUrl}) => {
                     </select>
                 </div>
                 <div className="add-price flex-col">
-                    <p>Product price($)</p>
+                    <p>Product price(₹)</p>
                     <input onChange={onChangeHandler} type="Number" name='price'  value={data.price}  placeholder='$20' />
                 </div>
             </div>
